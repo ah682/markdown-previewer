@@ -20,12 +20,12 @@ function App() {
 - Second item
 - Third item
 
-  > blockquote
+> blockquote
 
-  ![alt text](image.jpg)
+![alt text](image.jpg)
 
-  **bold text**
-  `);
+**bold text**
+`);
 
   marked.setOptions({
     breaks: true
